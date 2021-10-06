@@ -1,0 +1,179 @@
+body
+{
+    background: greenyellow;
+
+}
+h1{
+    text-align: center;
+}
+.box
+{
+    display: inline-block;
+    height: 150px;
+    width: 150px;
+    background: violet;
+    animation-name: first;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction:alternate;
+    margin-left: 30px;
+    align-content: center;
+    animation-delay: 1s;
+    animation-timing-function: linear;
+    transform: skewX(-20deg);
+    
+    
+}
+
+
+
+@keyframes first {
+    100%{
+        transform:skewX(20deg)}
+
+    
+    
+}
+
+.boxm
+{
+    display: inline-block;
+    height: 150px;
+    width: 150px;
+    background:cyan;
+    animation-name: second;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction:alternate;
+    margin-left: 30px;
+    align-content: center;
+    animation-delay: 1s;
+    animation-timing-function: linear;
+    transform: skewY(-20deg);
+    margin-top: 40px;
+}
+
+@keyframes second {
+    100%{
+        transform:skewY(20deg)}
+
+    
+    
+}
+
+.boxr
+{
+    display: inline-block;
+    height: 150px;
+    width: 150px;
+    background:blue;
+    animation-name: third;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction:normal;
+    margin-left: 30px;
+    align-content: center;
+    animation-delay: 1s;
+    animation-timing-function: ease-in-out ;
+    margin-top: 40px
+    
+}
+
+
+@keyframes third
+{
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+.boxl{
+    display: inline-block;
+    height: 150px;
+    width: 150px;
+    margin-top: 40px;
+    margin-left: 30px;
+
+}
+
+.boxl1
+{
+    background: slateblue;
+    animation-name: lim1;
+    animation-direction: normal;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+
+@keyframes lim1
+{
+    100%
+    {
+        transform: rotateX(60deg);
+
+    }
+}
+
+.boxl2
+{
+    background: maroon;
+    animation-name: lim2;
+    animation-direction: normal;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+
+@keyframes lim2
+{
+    100%
+    {
+        transform: rotateY(60deg);
+        
+    }
+}
+
+.boxl3
+{
+    background: tomato;
+    animation-name: lim3;
+    animation-direction: alternate;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+
+@keyframes lim3
+{
+    100%
+    {
+        transform: rotate(100deg);
+        
+    }
+}
+
+.master
+{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+}
+
+.back
+{
+    text-align: center;
+    margin-top: 15px;
+    padding: 10px;
+    display: block;
+    height: 20px;
+    width: 60px;
+    background:black;
+    border-radius: 10px;
+     margin-left: 650px;
+     color: white;
+}
